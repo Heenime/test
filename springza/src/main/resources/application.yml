@@ -1,0 +1,27 @@
+# web应用相关配置
+server: 
+ port: 8888
+ context-path: /springza
+ 
+# JSP视图整合
+spring.view.prefix: /WEB-INF/
+spring.view.suffix: .jsp
+
+
+# 数据源相关配置 spring.datasource.driver-class-name
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://192.168.0.60:3306/ater_bh?useUnicode=true&characterEncoding=UTF-8
+    # url: jdbc:mysql://192.168.0.139:3306/mydata?useUnicode=true&characterEncoding=UTF-8
+    username: root
+    password: 123456  
+
+
+
+ 
+  
+  
+  
+  
+ 
